@@ -1,7 +1,8 @@
 package designpattern.factory.example.search.validation;
 
-import designpattern.factory.example.search.dto.SearchForm;
+import designpattern.factory.example.search.util.SearchType;
+import designpattern.factory.example.search.validation.impl.AbstractSearchValidationStrategy;
 
 public interface ISearchValidationFactory {
-	AbstractSearchValidationStrategy createSearchStrategy(SearchForm searchForm);
+	AbstractSearchValidationStrategy createSearchValidationStrategy(SearchType searchType);
 }
