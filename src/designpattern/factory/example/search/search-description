@@ -1,0 +1,8 @@
+1. Build difference search functions type based on the input from search mask.
+	- Search by ID if the ID is enterted
+	- Search by phone if the phone is enterted
+	- Standard Search if the phone and ID is not enterted
+	
+2. Search validations are accordingly to search functions
+
+=> Using factory design pattern to write implementation code.
