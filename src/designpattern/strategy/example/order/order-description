@@ -1,0 +1,14 @@
+
+1.Process: Write order to DB from request GUI or Services.
+- There are different order types. Each type have different order product price
+	- wholesale order -> write, send mail info
+	- retail order    -> write
+	- special order   -> write, make and send authen code.
+	
+- There are different customer types. Each type have different order SHIP price
+	- Membership monthly order
+	- Membership yearly order
+	- Normal
+
+=> Write these information into DB to save information of each order.
+=> Using design pattern for clean code purpose.	

@@ -5,8 +5,8 @@ import org.apache.commons.lang3.StringUtils;
 import designpattern.factory.example.search.dto.SearchForm;
 
 public final class SearchHelper {
-	private static SearchHelper INSTANCE = null;
-
+	private static SearchHelper INSTANCE;
+	
 	private SearchHelper() {
 
 	}
@@ -24,7 +24,7 @@ public final class SearchHelper {
 		{
 			return SearchType.IDENTIFIER_SEARCH;
 		}
-		else if (searchForm.getContact() != null && StringUtils.isNotEmpty(searchForm.getContact().getPhone())) 
+		else if (StringUtils.isNotEmpty(searchForm.getPhone())) 
 		{
 			return SearchType.PHONE_SEARCH;
 		} 
