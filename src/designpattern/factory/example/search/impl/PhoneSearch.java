@@ -7,7 +7,7 @@ public class PhoneSearch extends AbstractSearch{
 
 	@Override
 	public SearchResponse search(SearchForm input) {
-		// TODO Auto-generated method stub
+		System.out.println("Performing search with phone...");
 		return null;
 	}
 

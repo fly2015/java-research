@@ -7,7 +7,7 @@ public class StandardSearch extends AbstractSearch{
 
 	@Override
 	public SearchResponse search(SearchForm input) {
-		// TODO Auto-generated method stub
+		System.out.println("Performing standard search...");
 		return null;
 	}
 

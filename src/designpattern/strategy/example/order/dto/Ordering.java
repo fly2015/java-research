@@ -9,6 +9,16 @@ public class Ordering {
 	private Long orderingContactKey;
 	private Date orderExpiredDate;
 	private int orderTypeId;
+	private OrderType orderType;
+	
+	
+	public OrderType getOrderType() {
+		return orderType;
+	}
+
+	public void setOrderType(OrderType orderType) {
+		this.orderType = orderType;
+	}
 
 	public Long getOrderingId() {
 		return orderingId;

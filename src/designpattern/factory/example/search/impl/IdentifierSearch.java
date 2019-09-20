@@ -7,8 +7,7 @@ public class IdentifierSearch extends AbstractSearch{
 
 	@Override
 	public SearchResponse search(SearchForm input) {
-		validation(input);
-		
+		System.out.println("Performing search with identifier...");
 		return new SearchResponse();
 	}
 

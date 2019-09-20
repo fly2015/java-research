@@ -6,3 +6,4 @@
 2. Search validations are accordingly to search functions
 
 => Using factory design pattern to write implementation code.
+=> Using strategy pattern to wrap the escapsulated valition impl into the search class type.

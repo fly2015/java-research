@@ -6,7 +6,6 @@ public class PhoneSeachValidationStrategy implements ISearchValidationStrategy{
 
 	public void validate(SearchForm searchForm) {
 		System.out.println("Validating the search with Phone...");
-		
 	}
 
 }
